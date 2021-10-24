@@ -1,0 +1,311 @@
+body{
+  margin: 0;
+  font-size: 1rem;
+}
+/* Navigation Bar */
+.menubar{
+  margin-left:1rem;
+  width: 1.8rem;
+  height: .15rem;
+  background-color: black;
+  margin: 6px 0;
+}
+.search-bar{
+  margin-top:0;
+  width:75%;
+  text-align:center;
+  float:left;
+  padding-bottom:.25rem;
+  padding-top:.25rem;
+  /* border: 3px solid black; */
+  border-radius: 10px;
+}
+.branding-logo{
+  border-radius:5%;
+  margin-right:1rem;
+}
+.brand-name{
+  font-size:1.2rem;
+}
+.navigation-bar-theme{
+  margin:0;
+  /* background-image: linear-gradient(to right,gold , silver , gold); */
+  background-image: linear-gradient(to right, rgb(136, 177, 255) , #564fc0);
+}
+.navbar-undorder-list{
+  color:black;
+  font-size:1rem;
+}
+.navigation-items{
+  font-weight: bold;
+  font-size:1rem;
+}
+.list-bart-theme{
+  background-color:#16ddfc;
+  font-weight: bold;
+  font-size:1rem;
+  background-image: linear-gradient(to right,  #514fb9 , yellow );
+}
+/* navigation bar Css ends */
+
+
+/* Search Bar Css */
+
+.search-barr{
+  margin-top:0;
+}
+.search-buttonn{
+  margin-top:0;
+  width:25%;
+  float:left;
+}
+
+/* Carousel Css Start */
+
+
+.carousel-h1{
+  font-size: 1.5rem;
+  font-family: 'Lobster', cursive;
+  background-size: contain;
+  color: white;
+  background-color: black;
+}
+
+/* carousel Css ends */
+
+/* Display Of item Start */
+.item-heading{
+  text-align: left;
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+#grocery-items-direct-adding h1, #vegetable-items-direct-adding h1, #fruit-items-direct-adding h1{
+  font-size:1.1rem;font-weight:bold;padding-bottom: 0px;margin-bottom: 2px;
+}
+.add-to-cart-css{
+  margin-top: 3px;
+  margin-bottom:3px;
+}
+.select-margin{
+  margin-bottom:3px;
+}
+.card-l-mar{
+  margin-left:4px;
+}
+.txt-cen{
+  text-align: center;
+}
+.h2-heading-main-body{
+  font-size: 1rem;
+}
+#grocery-items-direct-adding p, #vegetable-items-direct-adding p, #fruit-items-direct-adding p{
+  padding: 0px;margin: 1px;
+}
+.br-modification{
+  margin-top: 38px;
+}
+.image-of-card{
+  height: auto;
+  width:30%;
+  float: left;
+  margin-left: 1rem;
+  border-radius: 10px;
+  border:1px solid #2874F0;
+}
+/* Parallax Style */
+.parallax-vegetable {
+  /* The image used */
+  background-image: url('Vegetables.jpg');
+  /* Full height */
+  height: 200px;;
+  /*Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-size{
+  height:200px;
+  width:176px;
+}
+.parallax-fruits {
+  /* The image used */
+  background-image: url('fruits.jpg');
+  /* Full height */
+  height: 200px;;
+  /*Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* just above the footer section */
+#details{
+  padding: 5% 7%;
+  width: 100%;
+  /* background-color: black; */
+}
+/* footer css */
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
